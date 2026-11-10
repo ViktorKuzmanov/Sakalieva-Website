@@ -15,7 +15,12 @@ const t = {
   mk: {
     name: "Адвокат Кристина Сакалиева",
     brand: { name: "Кристина Сакалиева", tag: "Адвокат" },
-    heroTitle: "Правна сигурност за секој ваш чекор.",
+    heroTitle: "Сигурен партнер. Јасни решенија. Заштита без компромис.",
+    benefits: [
+      ["Заштита без компромис", "Вашите интереси секогаш на прво место."],
+      ["Сигурен партнер", "До вас во секоја правна ситуација."],
+      ["Јасни решенија", "Сложените правни прашања ги објаснуваме едноставно."],
+    ] as [string, string][],
     nav: { home: "Почетна", about: "За нас", services: "Услуги", contact: "Контакт" },
     cta: "Закажете консултација",
     call: "Јавете се",
@@ -62,7 +67,12 @@ const t = {
   en: {
     name: "Attorney Kristina Sakalieva",
     brand: { name: "Kristina Sakalieva", tag: "Attorney at law" },
-    heroTitle: "Legal certainty at every step.",
+    heroTitle: "A reliable partner. Clear solutions. Uncompromising protection.",
+    benefits: [
+      ["Uncompromising protection", "Your interests always come first."],
+      ["A reliable partner", "By your side in every legal situation."],
+      ["Clear solutions", "We explain complex legal matters simply."],
+    ] as [string, string][],
     nav: { home: "Home", about: "About", services: "Services", contact: "Contact" },
     cta: "Schedule an appointment",
     call: "Call now",

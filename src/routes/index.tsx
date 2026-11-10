@@ -32,6 +32,17 @@ function Index() {
           </div>
         </div>
       </section>
+      <section className="border-b border-border bg-card">
+        <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-3">
+          {d.benefits.map(([title, text]) => (
+            <div key={title}>
+              <div className="mb-4 h-px w-10 bg-gold" />
+              <h3 className="font-display text-2xl text-primary">{title}</h3>
+              <p className="mt-2 text-sm text-muted-foreground">{text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
       <section className="mx-auto max-w-6xl px-6 py-20">
         <div className="mb-12 text-center">
           <div className="mx-auto mb-4 h-px w-16 bg-gold" />
